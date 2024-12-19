@@ -1,1 +1,6 @@
-print("Hello world")
+#!/bin/bash
+echo 'Hello world'
+
+for ((a=1;a<=10;a++)) do echo $a; done
+
+echo done
